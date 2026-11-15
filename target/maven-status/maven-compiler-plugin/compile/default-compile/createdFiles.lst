@@ -1,0 +1,11 @@
+co\edu\unillanos\campusfest\domain\Asistencia.class
+co\edu\unillanos\campusfest\infrastructure\persistence\RepositorioEventosEnMemoria.class
+co\edu\unillanos\campusfest\domain\EstadoReserva.class
+co\edu\unillanos\campusfest\application\port\RepositorioEventos.class
+co\edu\unillanos\campusfest\application\usecase\RegistrarIngreso.class
+co\edu\unillanos\campusfest\application\port\Reloj.class
+co\edu\unillanos\campusfest\application\usecase\ConsultarCupos.class
+co\edu\unillanos\campusfest\application\usecase\EditarEvento.class
+co\edu\unillanos\campusfest\application\usecase\ReservarEntrada.class
+co\edu\unillanos\campusfest\domain\Evento.class
+co\edu\unillanos\campusfest\domain\Reserva.class

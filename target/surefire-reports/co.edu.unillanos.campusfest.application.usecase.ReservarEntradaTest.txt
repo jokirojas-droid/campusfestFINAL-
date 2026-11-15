@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! -- in co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.confirmarAntesDelPlazoLaDejaConfirmadaYGuarda -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.solicitarCreaUnaPendienteQueVenceEnDiezMinutosSegunElReloj -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.solicitarGuardaElEventoYOcupaUnCupo -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.sinCuposLaSolicitudSeRechaza -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.solicitarEnUnEventoQueNoExisteSeRechaza -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.confirmarUnCodigoQueNoEsDelEventoSeRechaza -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.confirmarALosDiezMinutosSeRechazaYElCupoQuedaLibre -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.ReservarEntradaTest.preparar(ReservarEntradaTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

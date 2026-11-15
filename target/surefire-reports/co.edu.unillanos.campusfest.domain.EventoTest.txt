@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.unillanos.campusfest.domain.EventoTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.086 s <<< FAILURE! -- in co.edu.unillanos.campusfest.domain.EventoTest
+co.edu.unillanos.campusfest.domain.EventoTest.unEventoSinReservasTieneLibresElAforoMenosLosBloqueados -- Time elapsed: 0.012 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.unEventoSinReservasTieneLibresElAforoMenosLosBloqueados(EventoTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.unaPendienteVencidaLiberaSuCupo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.unaPendienteVencidaLiberaSuCupo(EventoTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.sePuedeAumentarElAforo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.sePuedeAumentarElAforo(EventoTest.java:148)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.bajarElAforoPorDebajoDeLosOcupadosSeRechazaEInformaLosOcupados -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.eventoConTresConfirmadas(EventoTest.java:193)
+	at co.edu.unillanos.campusfest.domain.EventoTest.bajarElAforoPorDebajoDeLosOcupadosSeRechazaEInformaLosOcupados(EventoTest.java:170)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.buscarUnCodigoQueNoEsDelEventoSeRechaza -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.buscarUnCodigoQueNoEsDelEventoSeRechaza(EventoTest.java:122)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.reservarCreaUnaPendienteYOcupaUnCupo -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.reservarCreaUnaPendienteYOcupaUnCupo(EventoTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.lasPendientesVencidasNoCuentanComoOcupadasAlBajarElAforo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.lasPendientesVencidasNoCuentanComoOcupadasAlBajarElAforo(EventoTest.java:183)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.buscarReservaPorCodigoDevuelveLaReservaDelEvento -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.buscarReservaPorCodigoDevuelveLaReservaDelEvento(EventoTest.java:113)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.sePuedeReservarElUltimoCupo -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.sePuedeReservarElUltimoCupo(EventoTest.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.cambiarDatosActualizaNombreFechaYLugar -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.cambiarDatosActualizaNombreFechaYLugar(EventoTest.java:135)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.sinCuposLaReservaSeRechazaYNoHaySobreventa -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.sinCuposLaReservaSeRechazaYNoHaySobreventa(EventoTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.losCuposDelTallerDanVeinte -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.losCuposDelTallerDanVeinte(EventoTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.cuandoVenceUnaPendienteSuCupoSePuedeVolverAReservar -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.cuandoVenceUnaPendienteSuCupoSePuedeVolverAReservar(EventoTest.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.domain.EventoTest.sePuedeBajarElAforoHastaDejarCeroCuposLibres -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.domain.EventoTest.nuevoEvento(EventoTest.java:23)
+	at co.edu.unillanos.campusfest.domain.EventoTest.eventoConTresConfirmadas(EventoTest.java:193)
+	at co.edu.unillanos.campusfest.domain.EventoTest.sePuedeBajarElAforoHastaDejarCeroCuposLibres(EventoTest.java:160)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

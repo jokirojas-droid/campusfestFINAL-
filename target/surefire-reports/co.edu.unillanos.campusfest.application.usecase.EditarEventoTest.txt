@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.unillanos.campusfest.application.usecase.EditarEventoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in co.edu.unillanos.campusfest.application.usecase.EditarEventoTest
+co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.editarCambiaLosDatosYGuarda -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.preparar(EditarEventoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.editarUsaElRelojParaSaberQuePendientesSiguenOcupando -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.preparar(EditarEventoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.editarUnEventoQueNoExisteSeRechaza -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.preparar(EditarEventoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.obtenerDevuelveElEventoParaLlenarElFormulario -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.preparar(EditarEventoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.obtenerUnEventoQueNoExisteSeRechaza -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.preparar(EditarEventoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.editarConAforoMenorQueLosOcupadosSeRechazaYNoGuarda -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException
+	at co.edu.unillanos.campusfest.domain.Evento.<init>(Evento.java:8)
+	at co.edu.unillanos.campusfest.application.usecase.EditarEventoTest.preparar(EditarEventoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
