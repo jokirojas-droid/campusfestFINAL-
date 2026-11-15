@@ -1,6 +1,7 @@
 package co.edu.unillanos.campusfest.domain;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class Evento {
     public Evento(String id, String nombre, LocalDateTime fecha, String lugar,
@@ -45,6 +46,13 @@ public class Evento {
     }
 
     public int getAforo() {
+        throw new UnsupportedOperationException();
+    }
+    public int getBloqueados() {
+        throw new UnsupportedOperationException();
+    }
+
+    public List<Reserva> getReservas() {
         throw new UnsupportedOperationException();
     }
 }
