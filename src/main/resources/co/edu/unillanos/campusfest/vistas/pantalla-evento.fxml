@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="14" styleClass="pagina" stylesheets="@estilos.css" prefWidth="760" prefHeight="680">
+    <children>
+        <Label text="CAMPUSFEST  /  CU3" styleClass="sobrelinea" />
+        <Label text="Gestionar evento" styleClass="titulo" />
+        <Label text="Carga los datos del evento y envía sus modificaciones al caso de uso." styleClass="descripcion" wrapText="true" />
+        <VBox spacing="10" styleClass="tarjeta">
+            <children>
+                <Label text="Identificador del evento" styleClass="rotulo" />
+                <HBox spacing="10">
+                    <children>
+                        <TextField fx:id="campoEventoId" promptText="Ejemplo: EVT-001" />
+                        <Button text="Cargar datos" onAction="#alObtenerEvento" styleClass="boton-secundario" />
+                    </children>
+                </HBox>
+                <Label text="Nombre" styleClass="rotulo" />
+                <TextField fx:id="campoNombre" promptText="Nombre del evento" />
+                <HBox spacing="20">
+                    <children>
+                        <VBox spacing="6">
+                            <children>
+                                <Label text="Fecha" styleClass="rotulo" />
+                                <DatePicker fx:id="campoFecha" promptText="Selecciona la fecha" />
+                            </children>
+                        </VBox>
+                        <VBox spacing="6">
+                            <children>
+                                <Label text="Hora (HH:mm)" styleClass="rotulo" />
+                                <TextField fx:id="campoHora" promptText="18:30" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <Label text="Lugar" styleClass="rotulo" />
+                <TextField fx:id="campoLugar" promptText="Lugar del evento" />
+                <Label text="Aforo" styleClass="rotulo" />
+                <TextField fx:id="campoAforo" promptText="Capacidad máxima" />
+                <Button text="Guardar cambios" onAction="#alGuardarEvento" styleClass="boton-principal" />
+                <Label fx:id="etiquetaMensaje" text="Carga un evento para editarlo." styleClass="mensaje" wrapText="true" />
+            </children>
+        </VBox>
+    </children>
+</VBox>
