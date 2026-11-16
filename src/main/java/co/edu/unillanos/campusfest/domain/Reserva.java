@@ -42,4 +42,7 @@ public class Reserva {
     public Asistencia getAsistencia() {
         throw new UnsupportedOperationException();
     }
+    public static Reserva reconstruir(String codigo, String estudianteId, LocalDateTime venceEn,EstadoReserva estado, Asistencia asistencia) {
+        throw new UnsupportedOperationException();
+    }
 }
