@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="18" styleClass="pagina" stylesheets="@estilos.css" prefWidth="760" prefHeight="470">
+    <children>
+        <Label text="CAMPUSFEST  /  CU4" styleClass="sobrelinea" />
+        <Label text="Registrar ingreso" styleClass="titulo" />
+        <Label text="Ingresa el contenido del QR asociado con una reserva confirmada." styleClass="descripcion" wrapText="true" />
+        <VBox spacing="12" styleClass="tarjeta">
+            <children>
+                <Label text="Identificador del evento" styleClass="rotulo" />
+                <TextField fx:id="campoEventoId" promptText="Ejemplo: EVT-001" />
+                <Label text="Código QR de la reserva" styleClass="rotulo" />
+                <TextField fx:id="campoCodigoQR" promptText="Pega o escribe el código del QR" />
+                <Button text="Registrar ingreso" onAction="#alRegistrarIngreso" styleClass="boton-principal" defaultButton="true" />
+                <Label fx:id="etiquetaMensaje" text="Aquí aparecerá la confirmación o el error." styleClass="mensaje" wrapText="true" />
+            </children>
+        </VBox>
+    </children>
+</VBox>

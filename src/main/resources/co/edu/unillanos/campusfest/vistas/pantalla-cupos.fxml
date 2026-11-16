@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="18" styleClass="pagina" stylesheets="@estilos.css" prefWidth="760" prefHeight="470">
+    <children>
+        <Label text="CAMPUSFEST  /  CU1" styleClass="sobrelinea" />
+        <Label text="Consultar cupos" styleClass="titulo" />
+        <Label text="Consulta la disponibilidad actual de un evento universitario." styleClass="descripcion" wrapText="true" />
+        <VBox spacing="12" styleClass="tarjeta">
+            <children>
+                <Label text="Identificador del evento" styleClass="rotulo" />
+                <TextField fx:id="campoEventoId" promptText="Ejemplo: EVT-001" />
+                <HBox spacing="12">
+                    <children>
+                        <Button text="Consultar disponibilidad" onAction="#alConsultarCupos" styleClass="boton-principal" defaultButton="true" />
+                    </children>
+                </HBox>
+                <Label fx:id="etiquetaMensaje" text="Introduce el identificador y consulta los cupos." styleClass="mensaje" wrapText="true" />
+            </children>
+        </VBox>
+    </children>
+</VBox>

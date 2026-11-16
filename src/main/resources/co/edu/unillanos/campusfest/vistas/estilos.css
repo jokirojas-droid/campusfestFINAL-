@@ -1,0 +1,69 @@
+/* Estilo compartido. Todas las propiedades usan el prefijo -fx-. */
+.pagina {
+    -fx-background-color: #0d1626;
+    -fx-padding: 32;
+    -fx-font-family: "Segoe UI";
+}
+.titulo {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+.sobrelinea {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #65c3ee;
+}
+.descripcion {
+    -fx-font-size: 14px;
+    -fx-text-fill: #bdcee2;
+}
+.tarjeta {
+    -fx-background-color: #17253b;
+    -fx-border-color: #31445c;
+    -fx-border-width: 1px;
+    -fx-background-radius: 13px;
+    -fx-border-radius: 13px;
+    -fx-padding: 22px;
+}
+.rotulo {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e2ebf6;
+}
+.text-field, .date-picker {
+    -fx-background-color: #e8f1fb;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #12223b;
+    -fx-font-size: 14px;
+}
+.boton-principal {
+    -fx-background-color: #269dd5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 11px 19px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+.boton-principal:hover {
+    -fx-background-color: #1b81b4;
+}
+.boton-secundario {
+    -fx-background-color: #304964;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 18px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+.boton-secundario:hover {
+    -fx-background-color: #48637e;
+}
+.mensaje {
+    -fx-font-size: 14px;
+    -fx-text-fill: #e0f2fe;
+    -fx-padding: 12px;
+    -fx-background-color: #243950;
+    -fx-background-radius: 7px;
+}
