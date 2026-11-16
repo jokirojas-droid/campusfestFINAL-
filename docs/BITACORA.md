@@ -5,7 +5,7 @@
 | Rol | Nombre | Usuario de GitHub |
 |---|---|---|
 | Integrador | Johan Kirley Rojas Bobadilla | jokirojas-droid |
-| Líder de Dominio | Johan Sebastian Jaime Patiño | johansebastianreinbor’s |
+| Líder de Dominio | Johan Sebastian Jaime Patiño | johansebastianreinbor |
 | Casos de Uso, Memoria y H2 | Manuela Mican Vargas | ManuelaM4 |
 | Interfaz Gráfica | Hanner Stiven Contreras Carvajal | hsccarvajal-sudo |
 
@@ -20,7 +20,7 @@ Cadena de revisión: Rol 1↔Rol 2, Rol 2↔Rol 3, Rol 3↔Rol 4, Rol 4↔Rol 1.
 | CU3 | `pantalla-evento.fxml` | `PantallaEventoController` | `(EditarEvento)` | `obtener`, `editar` |
 | CU4 | `pantalla-ingreso.fxml` | `PantallaIngresoController` | `(RegistrarIngreso)` | `registrar` |
 
-Cada `fx:id` es un campo `private` con `@FXML` y el mismo nombre; cada `onAction="#metodo"` es un método `@FXML`; todas las pantallas tienen `<Label fx:id="etiquetaMensaje"/>`. Los FXML **no** declaran `fx:controller`: `App` asigna el controlador con `setControllerFactory` porque recibe el caso de uso por constructor.
+Cada `fx:id` es un campo `private` con `@FXML` y el mismo nombre; cada `onAction="#metodo"` es un método `@FXML`; todas las pantallas tienen `<Label fx:id="etiquetaMensaje"/>`. Los FXML **no** declaran `fx:controller`: `App` crea el controlador con su caso de uso y lo asigna con `loader.setController(controlador)` antes de llamar a `loader.load()`.
 
 ## 3. Decisiones de diseño (D1–D8)
 
@@ -38,9 +38,9 @@ Cada `fx:id` es un campo `private` con `@FXML` y el mismo nombre; cada `onAction
 | Herramienta | Para qué se usó | En qué clases | ¿Respetó el diseño? |
 |---|---|---|---|
 | Gemini | Estructura base Maven, esqueleto del contrato, guía de integración | `pom.xml`, esqueleto, `RelojDelSistema`, `App` | Sí (se ajustó el constructor de `Evento` a 6 parámetros según `CONTRATO.md`). |
-| (completar cuando ocurra) | (completar) | (completar) | No — violaba D__; corregido en commit `<hash>`. |
+| Gemini | Documentación inicial de integración en bitácora | `docs/BITACORA.md` | No — propuso `setControllerFactory` en lugar de `loader.setController(controlador)` antes de `load()` para FXML sin `fx:controller`; corregido en revisión de PR #2. |
 
-> **Criterio 8.2:** llenar la segunda fila en el momento en que ocurra (una regla en un controlador, un `now()` en una entidad, un cálculo de cupos duplicado, etc.). Anotar el hash del commit de la corrección; al final es difícil reconstruirlo.
+> **Criterio 8.2:** esta segunda fila ya deja documentada una propuesta de la IA que violaba el funcionamiento esperado de JavaFX sin `fx:controller` y cómo se corrigió en la revisión de PR #2.
 
 ## 5. Predicción D8 vs. lo que realmente cambió (al cierre)
 
