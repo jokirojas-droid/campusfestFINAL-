@@ -3,11 +3,13 @@ package co.edu.unillanos.campusfest.domain;
 import java.time.LocalDateTime;
 
 public class Asistencia {
+    private final LocalDateTime hora;
+
     public Asistencia(LocalDateTime hora) {
-        throw new UnsupportedOperationException();
+        this.hora = hora;
     }
 
     public LocalDateTime getHora() {
-        throw new UnsupportedOperationException();
+        return hora;
     }
 }
