@@ -27,7 +27,11 @@ import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
+<<<<<<< HEAD
+import java.time.LocalDateTime;
+=======
 
+>>>>>>> origin/main
 
 public class App extends Application {
 
@@ -41,7 +45,22 @@ public class App extends Application {
         RepositorioEventos repositorio = new RepositorioEventosH2(conexion);
         Reloj reloj = new RelojDelSistema();
 
+<<<<<<< HEAD
+        // Evento inicial de prueba si aún no existe en la base de datos
+        if (repositorio.buscar("EV-1") == null) {
+            repositorio.guardar(new Evento(
+                    "EV-1",
+                    "CampusFest Unillanos 2026",
+                    LocalDateTime.now().plusDays(15),
+                    "Auditorio Eduardo Carranza",
+                    100,
+                    10
+            ));
+        }
+
+=======
     
+>>>>>>> origin/main
         ConsultarCupos consultarCupos = new ConsultarCupos(repositorio, reloj);
         ReservarEntrada reservarEntrada = new ReservarEntrada(repositorio, reloj);
         EditarEvento editarEvento = new EditarEvento(repositorio, reloj);
